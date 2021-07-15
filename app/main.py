@@ -37,7 +37,7 @@ html.Div([
 )
 def func(n_clicks):
     return dcc.send_file(
-        "E:\MATH\Stanton Internship\TFK_Average_Atom.pdf"
+        "smt_app/stanton16.pdf"
     )
 if __name__=='__main__':
    app.run_server(debug=True)
