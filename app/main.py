@@ -4,6 +4,9 @@ import dash_core_components as dcc
 from dash.dependencies import Input,Output
 import pandas as pd
 import plotly.express as px
+
+server = app.server
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 colors = {
